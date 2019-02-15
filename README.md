@@ -19,4 +19,7 @@ Tutorial to compare unittest and pytest (Renzo Pro) by Marcus Mariano
 | Marks                      | built in                           | your own =,(                     | Pytest   |
 
 pipenv run pytest -sv  tests/test_pytest/test_setup/
+
+pipenv run pytest -s -m non_db tests/test_pytest/test_setup/
+
 python -m unittest -v tests/tests/test_unittest/test_setup/
