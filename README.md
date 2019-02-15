@@ -17,3 +17,6 @@ Tutorial to compare unittest and pytest (Renzo Pro) by Marcus Mariano
 | Name Refactoring           | poor, because of name conventions  | rich, regular object orientation | Unittest |
 | Running Failed Tests       | built in (--lf, --ff)              | your own =,(                     | Pytest   |
 | Marks                      | built in                           | your own =,(                     | Pytest   |
+
+pipenv run pytest -sv  tests/test_pytest/test_setup/
+python -m unittest -v tests/tests/test_unittest/test_setup/
